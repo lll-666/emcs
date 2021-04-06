@@ -1,7 +1,9 @@
 package com.emcs.busniess.register;
 
-import com.emcs.Constant.ErrorCodeConstant.*;
-import com.emcs.Constant.BusiConstant.*;
+import com.emcs.Constant.BusiConstant.Quence;
+import com.emcs.Constant.BusiConstant.Role;
+import com.emcs.Constant.ErrorCodeConstant.CustErrorCode;
+import com.emcs.Constant.ErrorCodeConstant.PlatErrorCode;
 import com.emcs.busniess.card.BindCard;
 import com.emcs.exception.BusiException;
 import com.emcs.supers.InServiceY;

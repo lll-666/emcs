@@ -1,38 +1,17 @@
 package com.emcs.timer;
 
-import com.emcs.Constant.BusiConstant;
-import com.emcs.cache.CacheData;
-import com.emcs.eod.AutoConfirmOrders;
-import com.emcs.eod.BatchVirAccountBalance;
-import com.emcs.eod.DaySwich;
-import com.emcs.eod.FromRecharBalToUsableBal;
 import com.emcs.exception.BusiException;
-import com.emcs.mapper.ManyTableDMLMapper;
-import com.emcs.mapper.ManyTableSelectMapper;
-import com.emcs.mapper.OneTableDMLMapper;
 import com.emcs.mapper.OneTableSelectMapper;
 import com.emcs.pub.runtime.core.Logger;
 import com.emcs.pub.runtime.core.LoggerFactory;
 import com.emcs.supers.PubServiceY;
-import com.emcs.supers.ServiceE;
-import com.emcs.supers.SuperTask;
-import com.emcs.tool.ReflectionUtils;
 import com.emcs.util.CheckEmpty;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.context.ContextLoader;
-import org.springframework.web.context.WebApplicationContext;
 
 import javax.annotation.Resource;
-import java.lang.reflect.Method;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import static com.github.pagehelper.util.MetaObjectUtil.method;
 
 /**
  * Created by Administrator on 2018/2/20.

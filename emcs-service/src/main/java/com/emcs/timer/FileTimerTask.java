@@ -2,8 +2,6 @@ package com.emcs.timer;
 
 import com.emcs.pub.runtime.core.Logger;
 import com.emcs.pub.runtime.core.LoggerFactory;
-import org.springframework.scheduling.annotation.Scheduled;
-import org.springframework.stereotype.Component;
 
 /**
  * Created by Administrator on 2018/2/19.

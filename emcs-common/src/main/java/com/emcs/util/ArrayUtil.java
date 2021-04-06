@@ -1,10 +1,11 @@
 package com.emcs.util;
 
+import org.apache.commons.lang.ArrayUtils;
+import org.apache.commons.lang.ObjectUtils;
+
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Iterator;
-import org.apache.commons.lang.ArrayUtils;
-import org.apache.commons.lang.ObjectUtils;
 
 public final class ArrayUtil {
     public static String[] NULL_STRINGS = new String[0];

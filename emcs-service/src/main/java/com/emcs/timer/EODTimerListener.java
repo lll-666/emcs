@@ -1,19 +1,19 @@
 package com.emcs.timer;
-        import com.emcs.Constant.BusiConstant;
-        import com.emcs.cache.CacheData;
-        import com.emcs.exception.BusiException;
-        import com.emcs.mapper.OneTableDMLMapper;
-        import com.emcs.mapper.OneTableSelectMapper;
-        import com.emcs.pub.runtime.core.Logger;
-        import com.emcs.pub.runtime.core.LoggerFactory;
-        import com.emcs.supers.SuperTask;
-        import com.emcs.util.CheckEmpty;
-        import org.springframework.scheduling.annotation.Scheduled;
-        import org.springframework.stereotype.Component;
-        import org.springframework.stereotype.Service;
-        import javax.annotation.Resource;
-        import javax.servlet.ServletContextEvent;
-        import java.util.*;
+
+import com.emcs.Constant.BusiConstant;
+import com.emcs.cache.CacheData;
+import com.emcs.exception.BusiException;
+import com.emcs.mapper.OneTableDMLMapper;
+import com.emcs.mapper.OneTableSelectMapper;
+import com.emcs.pub.runtime.core.Logger;
+import com.emcs.pub.runtime.core.LoggerFactory;
+import com.emcs.supers.SuperTask;
+import com.emcs.util.CheckEmpty;
+
+import javax.annotation.Resource;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * Created by Administrator on 2018/2/19.

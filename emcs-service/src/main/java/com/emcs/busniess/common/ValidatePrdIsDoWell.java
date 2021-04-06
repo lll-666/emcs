@@ -3,7 +3,6 @@ package com.emcs.busniess.common;
 import com.emcs.mapper.OneTableSelectMapper;
 import com.emcs.pub.runtime.core.Logger;
 import com.emcs.pub.runtime.core.LoggerFactory;
-import com.emcs.supers.PubServiceY;
 import com.emcs.util.CheckEmpty;
 import org.springframework.stereotype.Service;
 

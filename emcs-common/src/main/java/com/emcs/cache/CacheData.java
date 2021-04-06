@@ -3,17 +3,17 @@ package com.emcs.cache;
 /**
  * Created by Administrator on 2018/2/4.
  */
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
-import com.emcs.Constant.BusiConstant.*;
+
+import com.emcs.Constant.BusiConstant.Cache;
 import com.emcs.mapper.OneTableSelectMapper;
 import com.emcs.util.CheckEmpty;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import javax.annotation.PostConstruct;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 /** 缓存常用数据库配置类 */
 public class CacheData {

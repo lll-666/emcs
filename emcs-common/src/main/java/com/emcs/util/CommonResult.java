@@ -1,9 +1,9 @@
 package com.emcs.util;
 
-import java.io.Serializable;
-
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+
+import java.io.Serializable;
 public class CommonResult implements Serializable {
 	private String status;
 	private String msg;

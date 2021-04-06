@@ -1,10 +1,7 @@
 package com.emcs.util;
 
-import org.hibernate.validator.internal.xml.FieldType;
-
 import java.io.File;
 import java.math.BigDecimal;
-import java.sql.Array;
 import java.util.Collection;
 import java.util.Map;
 import java.util.regex.Pattern;

@@ -1,7 +1,5 @@
 package com.emcs.Script;
-import org.springframework.stereotype.Service;
 
-import java.io.File;
 import java.io.RandomAccessFile;
 
 public class MakeInsertSqls {

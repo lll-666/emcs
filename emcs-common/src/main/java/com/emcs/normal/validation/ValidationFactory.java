@@ -2,8 +2,6 @@ package com.emcs.normal.validation;
 
 import com.emcs.normal.validation.rule.ValidationFilter;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Set;
 
 /**
